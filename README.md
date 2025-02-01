@@ -1,0 +1,3 @@
+# F# Mutable Variable Swap Bug
+
+This repository demonstrates a common bug in F# involving the incorrect swapping of mutable variables. The `swap` function in `bug.fs` attempts to swap the values of two mutable variables, but due to the way F# handles mutable variables, it fails to modify the original variables.  The correct solution is provided in `bugSolution.fs`. This example highlights the importance of understanding how F# manages mutable state.
